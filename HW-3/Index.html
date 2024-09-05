@@ -13,42 +13,95 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 class="title">
+    <section>
+      <h1>Таблиця 1</h1>
+    <table>
+    <caption class="title">
       Найпопулярніші українські книжки на
       <a href="https://www.goodreads.com/">Goodreads</a>
-    </h1>
-    <table>
+    </caption>
+    <thead>
       <tr>
-        <td class="column-name">Назва книги</td>
-        <td class="column-name">Автор</td>
-        <td class="column-name">Рік випуску</td>
-        <td class="column-name">Рейтинг</td>
+        <th>Назва книги</th>
+        <th>Автор</th>
+        <th>Рік випуску</th>
+        <th>Рейтинг</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="column-data">Нові Темні Віки. Колонія</td>
+        <td class="column-data">Макс Кідрук</td>
+        <td>2022</td>
+        <td>4.71</td>
       </tr>
       <tr>
-        <td>Нові Темні Віки. Колонія</td>
-        <td>Макс Кідрук</td>
-        <td class="column-data">2022</td>
-        <td class="column-data">4.71</td>
+        <td class="column-data">Доця</td>
+        <td class="column-data">Тамара Горіха Зерня</td>
+        <td>2019</td>
+        <td>4.69</td>
       </tr>
       <tr>
-        <td>Доця</td>
-        <td>Тамара Горіха Зерня</td>
-        <td class="column-data">2019</td>
-        <td class="column-data">4.69</td>
+        <td class="column-data">За Перекопом є земля</td>
+        <td class="column-data">Анастасія Левкова</td>
+        <td>2023</td>
+        <td>4.66</td>
       </tr>
-      <tr>
-        <td>За Перекопом є земля</td>
-        <td>Анастасія Левкова</td>
-        <td class="column-data">2023</td>
-        <td class="column-data">4.66</td>
-      </tr>
+    </tbody>
     </table>
     <p>
       Інформацію взято з сайту
       <a
         href="https://suspilne.media/culture/708646-25-najpopularnisih-ukrainskih-knizok-na-goodreads-perelik/"
-        >Суспільна культура</a
-      >
+        >Суспільна культура</a>
     </p>
+</section>
+<section>
+  <h1>Таблиця 2</h1>
+    <table>
+      <tr>
+        <td colspan="2">text</td>
+        <td>text</td>
+        <td>text</td>
+        <td colspan="2">text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td colspan="2">text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2">text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td rowspan="4">text</td>
+      </tr>
+      <tr>
+        <td colspan="3">text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+    </table>
+  </section>
+<nav>
+    <button class="button">
+      <a href="./Inputs.html">Інпути</a>
+    </button>
+    </nav>
   </body>
 </html>

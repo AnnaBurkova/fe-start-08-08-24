@@ -1,12 +1,13 @@
+section{
+  margin-bottom: 50px;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 50px;
     font-family: Montserrat;
   }
 
-a{
+a {
     text-decoration: none;
     color: #1a3baf;
     font-weight: 600;
@@ -15,12 +16,10 @@ a{
 table {
   width: 650px;
   border-collapse: collapse;
-  margin-bottom: 5px;
-	border: 1px solid #1a3baf;
 }
 
 td {
-  text-align: left;
+  text-align: center;
 	padding: 10px;
 	border: 3px solid #1a3baf;
 }
@@ -35,15 +34,23 @@ td {
     font-size: 32px;
     font-weight: 400;
     line-height: 38.73px;
-    text-align: center;
     color: black;
+    margin-bottom: 15px;
  }
  
- .column-name{
-  text-align: center;
-  font-weight: 600;
+ .column-data{
+  text-align: left;
  }
 
- .column-data{
-  text-align: center;
- }
+  .button {
+  background-color: rgb(249 255 139);
+  border-style: solid;
+  border-color: #1a3baf;
+  border-radius: 10px;
+  padding: 10px 32px;
+  font-size: 16px;
+}
+
+.forms{
+  display: flex;
+}
