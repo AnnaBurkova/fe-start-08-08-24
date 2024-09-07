@@ -1,0 +1,123 @@
+html{
+width: 360px;
+height: 800px;
+}
+
+body{
+  margin-left: 24px;
+  margin-right: 20px;
+}
+ul{
+  list-style: none;
+  margin: 0;
+}
+
+h1,
+h2,
+p{
+  margin: 0;
+}
+
+#input{
+    background-color:rgba(239, 239, 239, 1);
+    border: none;
+    border-radius: 12px;
+    color: rgba(153, 153, 153, 1);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    height: 44px;
+    width: 100%;
+    text-indent: 15px;
+    margin-bottom: 30px;
+}
+
+.container_menu-button{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 32px;
+}
+
+.menu-button:not(:last-child){
+  margin-right: 24px;
+}
+
+.menu-button_link{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; 
+  color: rgba(196, 196, 196, 1);
+  align-items: center;
+}
+
+.menu_button_item {
+  width: 74px;
+  height: 74px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 8px;
+}
+
+.menu-button_desc {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.menu-button_link:focus,
+.menu-button_link:focus .menu_button_item {
+  color: rgba(0, 0, 0, 1); 
+}
+
+.menu-button_link:focus .menu_button_item {
+  background-color: rgba(234, 226, 183, 1); 
+}
+
+/* Секція бургери */
+
+.menu-food_title{
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+}
+
+.menu-food{
+ padding-left: 0;
+}
+
+.menu-food_item{
+  display: flex;
+  align-items: center;
+  height: 88px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 4px 0px rgba(229, 229, 229, 1);
+  padding-left: 15px;
+  margin-top: 26px;
+}
+
+.menu-food_item:not(:last-child){
+margin-bottom: 12px;
+}
+
+.menu-food_desc{
+  margin-left: 12px;
+}
+
+.menu-food_name{
+  margin-bottom: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.menu-food_id{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgba(214, 40, 40, 1);
+}
